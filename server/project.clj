@@ -6,6 +6,7 @@
   :dependencies [[org.clojure/clojure "1.11.1"] 
                  [org.clojure/core.async "1.7.701"]
                  [http-kit/http-kit "2.8.0"]
+                 [ring/ring-core "1.13.0"]
                  [com.taoensso/sente "1.20.0"]]
   :main ^:skip-aot server.core
   :target-path "target/%s"
