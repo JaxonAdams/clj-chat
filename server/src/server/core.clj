@@ -27,10 +27,10 @@
 ;; Start the server
 (defn start-server []
   (start-router)
-  (http-kit/run-server (app) {:port 3000}))
+  (http-kit/run-server (app) {:port 3000})
+  (println "Server running. Listening for requests on port 3000."))
 
 (defn -main
   "... Engage."
   [& args]
-  (println "Starting server...")
   (start-server))
